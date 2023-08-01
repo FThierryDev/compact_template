@@ -1,6 +1,8 @@
 * {
   margin: 0;
+  /*As margens são usadas para criar espaço ao redor dos elementos, fora de quaisquer bordas definidas.*/
   padding: 0;
+  /*O padding é usado para criar espaço ao redor do conteúdo de um elemento, dentro de qualquer borda definida.*/
 }
 
 body {
@@ -12,10 +14,13 @@ body {
 /* geral */
 .text-center {
   text-align: center;
+  /*A propriedade é usada para definir o alinhamento horizontal de um texto.text-align
+  Um texto pode ser alinhado à esquerda ou à direita, centralizado ou justificado.*/
 }
 
 .margin-top-40 {
   margin-top: 40px;
+  /*define uma distancia de 40px da margin superior*/
 }
 
 /*---------------------------*/
@@ -27,7 +32,10 @@ body {
 
 .container-cabecalho h3 {
   font-weight: 600;
+  /*Define a tonalidade da fonte*/
   font-size: 2em;
+  /*A propriedade define o tamanho do texto.
+  1em é igual ao tamanho da fonte atual. O tamanho de texto padrão em navegadores é 16px. Assim, o tamanho padrão de 1em é 16px.*/
   color: #1190ff;
 }
 
@@ -40,8 +48,12 @@ body {
 
 .container-navegacao a {
   font-size: 1.5em;
+  /*24px*/
   margin: 0px 50px;
+  /*top e bottom são 0px
+  left e right são 50 px*/
   text-decoration: none;
+  /*Todos os links em HTML são sublinhados por padrão. Às vezes você veja que os links são estilizados sem sublinhado. O é usado para remover o sublinhado das ligações, Assim:text-decoration: none;*/
   color: #7cc2ff;
 }
 
@@ -54,15 +66,22 @@ body {
 .container-quem-somos {
   background-color: #05192a;
   overflow: auto;
+  /*A propriedade CSS controla o que acontece com conteúdo que é muito grande para caber em uma área.
+  O valor é semelhante a scroll, mas adiciona barras de rolagem somente quando necessário*/
 }
 
 .container-quem-somos .servico {
   float: center;
+  /*A propriedade CSS Especifica quais elementos podem flutuar ao lado do elemento limpo e em que lado.*/
   margin: 60px auto;
+  /*top e bottom são 60px
+  left e right são auto*/
   background-color: #061f35;
   width: 50%;
+  /*A propriedade define a largura de um elemento.*/
   padding: 50px;
   border-radius: 10px;
+  /*A propriedade é usada para adicionar bordas arredondadas a um elemento*/
   text-align: center;
 }
 
@@ -74,6 +93,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   margin-top: 20px;
   font-size: 1.2em;
+  /*1.2*16 = 19.2px*/
   color: #81c4ff;
 }
 
@@ -96,7 +116,11 @@ body {
 
 .botoes-servicos-contatos a {
   display: block;
+  /*Uma propriedade display com
+  um valor de "block" resulta em
+  uma quebra de linha entre cada elemento de extensão.*/
   max-width: 200px;
+  /*A propriedade define a largura máxima de um elemento.*/
   text-decoration: none;
   font-size: 1.2em;
   background-color: #008eb9;
@@ -164,6 +188,10 @@ body {
   color: white;
   margin-bottom: 20px;
   border: 1px solid #105088;
+  /*A propriedade especifica que tipo de borda exibir.
+  largura da borda 1px 
+  solid: Define uma borda sólida
+  cor da borda*/
   background-color: #08253f;
   border-radius: 10px;
   padding: 20px;
